@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
                     e.printStackTrace();//Mother of all exceptions.used because we don't know what's the exceptoin gonna occur
                 }
                 finally {
-                   Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+                   Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
                    startActivity(intent);
                    //So that whenever user clicks back,it won't be redirected to
                 }

@@ -14,6 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KisanSarthi"
         tools:targetApi="31">
+
+        <!-- Activities -->
         <activity
             android:name=".FarmerActivity"
             android:exported="false" />
@@ -26,16 +28,15 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:noHistory="true"> <!-- android:noHistory="true" will give enable us to avoid splash screen when we go back -->
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <!-- activity having intent filter will run first when launched -->
         </activity>
         <activity android:name=".MainActivity" />
 
+        <!-- Content Provider -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.kisansarthi.fileprovider"
