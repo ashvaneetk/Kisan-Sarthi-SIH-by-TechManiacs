@@ -35,18 +35,6 @@
         android:layout_marginTop="8dp"
         android:hint="Password"
         android:inputType="textPassword"/>
-    <RadioGroup
-        android:id="@+id/roleRadioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/passwordEditText"
-        android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"
-        android:orientation="horizontal">
-
-        <!-- Add your radio buttons here -->
-
-    </RadioGroup>
 
     <RadioGroup
         android:id="@+id/roleRadioGroup"
@@ -71,13 +59,12 @@
             android:layout_marginStart="16dp" />
     </RadioGroup>
 
-
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordEditText"
-        android:layout_marginTop="134dp"
+        android:layout_marginTop="50dp"
         android:background="#47682F"
         android:text="Login"
         android:textColor="#FFFFFF" />
