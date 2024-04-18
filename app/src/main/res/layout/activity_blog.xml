@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DA26A">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoBack"
+        android:layout_width="89dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#4C5940"
+        android:text="Go Back"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/kisan_sarthi2"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <!-- BLOG Heading -->
+
+    <!-- Time and Date -->
+
+    <TextView
+        android:id="@+id/tvBlogHeading"
+        android:layout_width="356dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="462dp"
+        android:text=" BLOG"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Tree2 Image -->
+
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="154dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="228dp"
+        android:text="17 April 2024, 12:00 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- bg2 Image with Round Edges -->
+
+    <ImageView
+        android:id="@+id/tree2"
+        android:layout_width="505dp"
+        android:layout_height="419dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="416dp"
+        android:src="@drawable/tree2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bg2"
+        android:layout_width="500dp"
+        android:layout_height="558dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="401dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="701dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Home Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5E6948"
+            android:drawableEnd="@drawable/home"
+            android:iconTint="#282D1C"
+            android:text=""
+            android:textColor="#282D1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:iconGravity="textStart" />
+
+        <!-- Space View -->
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#5E6948" />
+
+        <!-- Search Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSearch"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5E6948"
+            android:drawableEnd="@drawable/sri"
+            android:iconTint="#282D1C"
+            android:text=""
+            android:textColor="#282D1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:iconGravity="textStart" />
+
+        <!-- Space View -->
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#5E6948" />
+
+        <!-- Bookmark Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBookmark"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5E6948"
+            android:drawableEnd="@drawable/bk"
+            android:iconTint="#282D1C"
+            android:text=""
+            android:textColor="#282D1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:iconGravity="textStart" />
+
+        <!-- Space View -->
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#5E6948" />
+
+        <!-- Profile Tab Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBlogWrite"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5E6948"
+            android:drawableEnd="@drawable/WB"
+            android:iconTint="#282D1C"
+            android:text=""
+            android:textColor="#282D1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:iconGravity="textStart" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

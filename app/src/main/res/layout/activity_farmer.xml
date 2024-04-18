@@ -97,7 +97,7 @@
         android:layout_width="99dp"
         android:layout_height="88dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/potato"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
