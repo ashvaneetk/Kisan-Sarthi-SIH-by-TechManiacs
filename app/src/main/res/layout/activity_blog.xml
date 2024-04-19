@@ -75,11 +75,11 @@
         android:layout_width="505dp"
         android:layout_height="419dp"
         android:layout_marginStart="45dp"
-        android:layout_marginBottom="416dp"
+        android:layout_marginBottom="412dp"
         android:src="@drawable/tree2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -182,7 +182,7 @@
             android:layout_height="75dp"
             android:layout_weight="1"
             android:backgroundTint="#5E6948"
-            android:drawableEnd="@drawable/WB"
+            android:drawableEnd="@drawable/wb"
             android:iconTint="#282D1C"
             android:text=""
             android:textColor="#282D1C"
