@@ -16,4 +16,10 @@
     </style>
 
     <style name="Theme.KisanSarthi" parent="Base.Theme.KisanSarthi" />
+    <style name="Theme.KisanSarthi.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.KisanSarthi.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.KisanSarthi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
