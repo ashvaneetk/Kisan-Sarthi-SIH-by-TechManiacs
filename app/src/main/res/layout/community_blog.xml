@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kisan_sarthi2" />  <View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C5940"  />
+
+    <TextView
+        android:id="@+id/blog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"  android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#D6DEC6"
+        android:textColor="#282D1C"  android:text="Kisan Sarthi Community Blog" />
+
+    <TextView
+        android:id="@+id/blog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blog_title"  android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"  android:textSize="20sp"
+        android:textColor="#ffffff"  android:text="Share your knowledge and experiences with fellow farmers!" />
+
+</RelativeLayout>
